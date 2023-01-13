@@ -4,7 +4,7 @@
 // Capitalis the first letter of string
 // input = "beutieful work"
 // output = "Beutieful work" 
- 
+
 {
 // the first way solution
 // way:  I uesed slice & charAt & toUpperCase   
