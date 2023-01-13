@@ -11,7 +11,7 @@ out put :::  ["kh","al","ed"]
         let result = [];
         if(0<times){
 
-            for(let i =0; i<str.length;i=i+times){
+            for(let i =0; i<str.length;i+=times){
                 result .push(str.slice(i,i+times))
             }
             return result

@@ -12,8 +12,20 @@ output = " aBcdEF"
     //we ues split methoed
   let letters=  str.split('');
   let newArray =[]
-  //we uesed for of loop
-    for (const i of letters) {
+  //we uesed for  loop
+  
+      // for (let i = 0; i < letters.length; i++) {
+      //   if (letters[i]===letters[i].toUpperCase()) {
+      //    newArray.push(letters[i].toLowerCase()) 
+      //   } else{
+      //       newArray.push(letters[i].toUpperCase()) 
+      //   }
+        
+      // }return newArray.join("")
+
+      // we uesed for of loop 
+
+  for (const i of letters) {
             //check by if statement
             if(i===i.toUpperCase()){
                 newArray.push(i.toLowerCase())
@@ -23,7 +35,7 @@ output = " aBcdEF"
     }
     return newArray.join('');
     }
-  let  output = SwapCase("AbCDef");
+  let  output = SwapCase("AbCDefBc");
     console.log(output);
 }
 

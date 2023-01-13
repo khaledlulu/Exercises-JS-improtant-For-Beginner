@@ -20,7 +20,7 @@
 
    let Capitalis= function (str){
      const word=str.split(" ")
-     newArray=[]
+    let  newArray=[]
      for (const i of word) {
         let result =i.charAt(0).toUpperCase()+i.slice(1)
       newArray.push(result)

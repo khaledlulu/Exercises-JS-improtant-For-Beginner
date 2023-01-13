@@ -26,5 +26,5 @@
         return word.join("")
     }
 }
-    let output=AlphabetizeString("acbedgf")
+    let output=AlphabetizeString("cbaedgf")
     console.log(output);

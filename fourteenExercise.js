@@ -10,20 +10,20 @@
 
         //first sol:
 
-        // let result=1;
-        // for (let i = 1; i <=num; i++) {
-        //     result*=i
+        let result=1;
+        for (let i = 1; i <=num; i++) {
+            result*=i
            
-        // }
-        // return result
+        }
+        return result
 
 
         //sconed sol :
         
-        for(let i= num - 1;i >= 1;i--){
-            num=num*i
-        }
-        return num
+        // for(let i= num - 1;i >= 1;i--){
+        //     num=num*i
+        // }
+        // return num
     }  
 
     let output=Factorialize(3)
